@@ -7,7 +7,7 @@ import Button from "../../ui/Button";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import DynamicListSelect from "../../ui/DynamicList";
 import TextArea from "../../ui/TextArea";
-import Card from "../../ui/CArd";
+import Card from "../../ui/Card";
 import { fetchUnits } from "../../../services/unitapi/unitapi";
 import { createProduct } from "../../../services/productapi/productapi";
 
