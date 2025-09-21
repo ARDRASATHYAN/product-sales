@@ -3,7 +3,7 @@ import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import Card from "../../ui/CArd";
+import Card from "../../ui/Card";
 import SaleItemList from "./components/SelectItemList";
 import SaleItemForm from "./components/SaleItemForm";
 import UnitSelector from "./components/UnitSelector";
